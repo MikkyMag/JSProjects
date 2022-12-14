@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MikkyMag Projects</title>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul>
+        <li><a class="button" href="/counter/counter.html">COUNTER</a></li>
+        <li><a class="button" href="/rgb/rgb.html">RGB</a></li>
+        <li><a class="button" href="/hex/hex.html">HEX</a></li>
+        <li><a class="button" href="/slider/slider.html">SLIDER</a></li>
+      </ul>
+    </nav>
+    <section class="content">
+      <h1>HEX <br> generator</h1>
+      <!-- NUMBER -->
+      <div class="hex number">#------</div>
+      <!-- Buttons -->
+      <div class="buttons">
+        <button type="button" class="button-randomhex button">GENERATE</button>
+      </div>
+    </section>
+        <!-- POP UP!!! -->
+        <div class="popup hidden">
+          <button class="close-button">&times;</button>
+          <iframe
+            class="frame"
+            src="https://www.colorhexa.com/b9e93b"
+            style="border: 1px solid black"
+          >
+          </iframe>
+        </div>
+        <div class="overlay hidden"></div>
+    <script src="/hex/hex.js"></script>
+  </body>
+</html>
+</html>
